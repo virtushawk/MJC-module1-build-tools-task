@@ -18,7 +18,7 @@ tasks.register('uberJar', Jar) {
 
     manifest {
         attributes("Implementation-Title": 'utils',
-                "Implementation-Version": version,"Main-class" : "utils.StringUtils")
+                "Implementation-Version": version,"Main-class" : "edu.epam.utils.StringUtils")
     }
     baseName = 'utils'
     from sourceSets.main.output

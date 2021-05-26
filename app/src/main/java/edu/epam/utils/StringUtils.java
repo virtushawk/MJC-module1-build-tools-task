@@ -1,4 +1,4 @@
-package utils;
+package edu.epam.utils;
 
 import org.apache.commons.lang3.math.NumberUtils;
 
